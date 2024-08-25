@@ -1,0 +1,31 @@
+.slick-slide {
+    transition: transform 0.5s ease, filter 0.5s ease;
+    filter: blur(5px);
+    /* Apply blur to all slides */
+}
+
+.slick-center {
+    transform: scale(1.05);
+    /* Optionally scale the centered slide */
+    filter: blur(0px);
+    /* Remove blur from the centered slide */
+}
+
+/* Add padding to the left and right of each card */
+.slick-list {
+    padding: 0 60px;
+    /* Match with centerPadding */
+}
+
+/* Adjustments for small screens */
+@media (max-width: 1024px) {
+    .slick-list {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 640px) {
+    .slick-list {
+        padding: 0 20px;
+    }
+}

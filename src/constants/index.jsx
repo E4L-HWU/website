@@ -51,6 +51,29 @@ export const features = [
   },
 ];
 
+export const about = [
+  {
+    subpoints: [
+      {
+        title: "Competitions",
+        description: "Participate in exciting engineering and technology competitions to showcase your skills and creativity.",
+      },
+      {
+        title: "Workshops",
+        description: "Join hands-on workshops to deepen your understanding of engineering concepts and tools.",
+      },
+      {
+        title: "Projects",
+        description: "Engage in real-world projects that challenge your problem-solving abilities and enhance your portfolio.",
+      },
+      {
+        title: "Seminars",
+        description: "Attend seminars led by industry experts to gain insights into the latest trends and technologies in engineering.",
+      },
+    ],
+  },
+];
+
 export const checklistItems = [
   {
     title: "Code merge made easy",

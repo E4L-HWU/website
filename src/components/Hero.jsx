@@ -5,7 +5,7 @@ import { fadeIn } from '../utils/motion';
 
 const Hero = () => {
     return (
-        <div className="flex flex-col items-center mt-6 lg:mt-20">
+        <div className="flex flex-col items-center lg:mt-20 mt-20">
             <motion.div
                 variants={fadeIn('up', 'spring', 0.5)}
                 initial="hidden"
