@@ -25,7 +25,7 @@ const Hero = () => {
                 animate="show"
                 className="flex flex-col items-center mt-6 lg:mt-20"
             >
-                <p className="mt-5 sm:text-md text-center text-neutral-500 max-2-4xl">
+                <p className="mt-2 sm:text-md text-center text-neutral-500 max-2-4xl">
                     We believe that the spirit of engineering shouldn't just be limited to the science students. We're here to help you learn, grow, and create.
                 </p>
             </motion.div>
