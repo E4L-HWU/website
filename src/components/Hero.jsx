@@ -14,7 +14,10 @@ const Hero = () => {
             >
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl text-center tracking-wide">
                     Where Curiosity Meets Creation. Empowering
-                    <span className="bg-gradient-to-r from-slate-50 to-slate-500 text-transparent bg-clip-text">
+                    <span
+                        className="bg-gradient-to-r from-slate-50 to-slate-500 text-transparent bg-clip-text"
+                        style={{ textShadow: "0 0 20px rgba(255, 255, 255, 0.5)" }}
+                    >
                         {" "}Engineers for Life
                     </span>
                 </h1>
@@ -25,8 +28,10 @@ const Hero = () => {
                 animate="show"
                 className="flex flex-col items-center mt-6 lg:mt-20"
             >
-                <p className="mt-2 sm:text-md text-center text-neutral-500 max-2-4xl">
-                    We believe that the spirit of engineering shouldn't just be limited to the science students. We're here to help you learn, grow, and create.
+                <p className="sm:text-md text-center text-neutral-500 max-2-4xl lg:-mt-10">
+                    We believe that the spirit of engineering shouldn't just be limited to the science students.
+                    <br className="hidden md:block" />
+                    We're here to help you learn, grow, and create.
                 </p>
             </motion.div>
             <motion.div
