@@ -30,7 +30,7 @@ const About = () => {
                 {features.map((feature, index) => (
                     <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4">
                         <div className="bg-neutral-600 rounded-lg p-6 flex items-start transition-transform transform hover:-translate-y-2 hover:bg-white hover:shadow-lg hover:shadow-neutral-700 group">
-                            <div className="flex-shrink-0 mx-4 h-12 w-12 p-2 bg-neutral-900 text-neutral-400 rounded-full flex justify-center items-center transition-colors">
+                            <div className="flex-shrink-0 mx-4 h-12 w-12 p-2 bg-neutral-900 text-neutral-400 rounded-full flex justify-center items-center transition-colors group-hover:text-white">
                                 {feature.icon}
                             </div>
                             <div>
