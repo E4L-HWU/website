@@ -26,11 +26,6 @@ const Navbar = () => {
                             </li>
                         ))}
                     </ul>
-                    <div className="hidden lg:flex justify-center space-x-12 items-center">
-                        <a href="#" className="bg-gradient-to-r from-slate-50 to-slate-300 py-2 px-3 rounded-md text-black hover:from-slate-600 hover:to-slate-700 hover:text-white transition-all duration-300 ease-in-out">
-                            Contact Us!
-                        </a>
-                    </div>
                     <div className="lg:hidden md:flex flex-col justify-end">
                         <button onClick={handleToggle} className="relative">
                             <Menu className={`w-[40px] h-[40px] absolute transition-transform duration-300 ease-in-out ${isOpen ? 'opacity-0 rotate-180' : 'opacity-100 rotate-0'}`} />
