@@ -4,6 +4,9 @@ import { gallerypoints } from "../constants";
 
 import { SectionWrapper } from "../hoc";
 
+import { motion } from 'framer-motion';
+import { fadeIn } from "../utils/motion";
+
 const Gallery = () => {
     return (
         <div className="text-center lg:-mt-16 md:-mt-16 mt-5">
@@ -41,6 +44,19 @@ const Gallery = () => {
                         </div>
                     ))}
                 </div>
+                <motion.div
+                    variants={fadeIn('up', 'spring', 0.9)}
+                    initial="hidden"
+                    animate="show"
+                    className="flex justify-center my-10"
+                >
+                    <a
+                        href="#"
+                        className="bg-gradient-to-r from-slate-50 to-primaryBlue py-3 px-7 mx-3 rounded-md text-black transition-all duration-300 ease-in-out hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-primaryBlue hover:to-white hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.4)]"
+                    >
+                        Visit our Gallery!
+                    </a>
+                </motion.div>
             </div>
         </div>
     )
