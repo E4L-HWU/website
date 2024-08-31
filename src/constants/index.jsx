@@ -15,7 +15,7 @@ export const features = [
     icon: <BrainCircuit />,
     text: "Competitions",
     description:
-      "Participate in exciting engineering and technology competitions to showcase your skills and creativity.",
+      "Participate in exciting engineering and technology competitions to showcase your skills.",
   },
   {
     icon: <Network />,
@@ -54,26 +54,21 @@ export const about = [
   },
 ];
 
-export const checklistItems = [
+export const gallerypoints = [
   {
-    title: "Code merge made easy",
+    title: "Discover our previous events",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Explore our gallery to see the highlights of our previous events and workshops.",
   },
   {
-    title: "Review code without worry",
+    title: "Our Event Highlights",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Get a glimpse of our upcoming events and stay updated with our latest offerings.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Upcoming Event Posters",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "Share work in minutes",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Discover the posters of our upcoming events and share them with your friends and colleagues.",
   },
 ];
 

@@ -5,7 +5,7 @@ import { features } from "../constants";
 
 const About = () => {
     return (
-        <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+        <div className="relative mt-20 border-neutral-800 min-h-[800px] -mb-16">
             <motion.div
                 variants={textVariant()}
                 className="text-center"
@@ -26,7 +26,7 @@ const About = () => {
                     </span>
                 </h2>
             </motion.div>
-            <div className="flex flex-wrap mt-10 lg:mt-20">
+            <div className="flex flex-wrap mt-10 lg:mt-20 justify-center">
                 {features.map((feature, index) => (
                     <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4">
                         <div className="bg-neutral-600 rounded-lg p-6 flex items-start transition-transform transform hover:-translate-y-2 hover:bg-primaryBlue hover:shadow-lg hover:shadow-neutral-700 group duration-300">

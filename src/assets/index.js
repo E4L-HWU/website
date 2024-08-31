@@ -77,6 +77,8 @@ import robowars3 from "./images/Robowars/robowars3.jpg";
 import robowars4 from "./images/Robowars/robowars4.jpg";
 import robowars5 from "./images/Robowars/robowars5.jpg";
 
+import gallery from "./images/gallery.png";
+
 export {
     logo,
     print1,
@@ -132,4 +134,5 @@ export {
     robowars3,
     robowars4,
     robowars5,
+    gallery,
 };
