@@ -19,7 +19,7 @@ export default function App() {
           }
         />
 
-        <Route path="/freshers" element={<SignUp />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </Router>
   );
