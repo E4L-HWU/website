@@ -1,9 +1,10 @@
-import { Navbar } from "./components"
+import { Navbar, Welcome } from "./components"
 
 const SignUp = () => {
     return (
         <>
             <Navbar />
+            <Welcome />
         </>
     )
 }

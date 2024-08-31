@@ -17,7 +17,9 @@ const Navbar = () => {
             <div className="container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
-                        <img src={logo} alt="E4L logo" className="w-[100px] h-[100px] mr-2 md:w-[110px] md:h-[110px]" />
+                        <a href="/">
+                            <img src={logo} alt="E4L logo" className="w-[100px] h-[100px] mr-2 md:w-[110px] md:h-[110px]" />
+                        </a>
                     </div>
                     <ul className="hidden lg:flex ml-14 space-x-12">
                         {navItems.map((item, index) => (

@@ -3,6 +3,7 @@ import Hero from "./Hero"
 import About from "./About";
 import Gallery from "./Gallery";
 import UpcomingEvents from "./UpcomingEvents";
+import Welcome from "./SignUp/Welcome";
 
 export {
     Navbar,
@@ -10,4 +11,5 @@ export {
     About,
     Gallery,
     UpcomingEvents,
+    Welcome,
 };
