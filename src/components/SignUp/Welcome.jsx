@@ -11,6 +11,7 @@ const Welcome = () => {
             variants={fadeIn('up', 'spring', 0.5)}
             initial="hidden"
             animate="show"
+            className="mb-20"
         >
             <div className="text-center lg:mt-20 mt-20">
                 <span className="text-white text-sm font-medium px-2 py-1 uppercase bg-clip-text">

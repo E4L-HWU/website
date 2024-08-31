@@ -1,6 +1,5 @@
-import { BrainCircuit } from "lucide-react";
+import { BrainCircuit, Globe, Podcast } from "lucide-react";
 import { Network } from "lucide-react";
-import { FolderKanban } from "lucide-react";
 import { Mic } from "lucide-react";
 
 export const navItems = [
@@ -28,6 +27,23 @@ export const features = [
     text: "Seminars",
     description:
       "Attend seminars led by industry experts to gain insights into the latest technologies in engineering.",
+  },
+];
+
+export const registration = [
+  {
+    icon: <Globe />,
+    text: "Council Website",
+    description:
+      "Complete your registration by purchasing a free membership from the student council website, Make sure to login with your student credentials.",
+    url: "https://www.hwudcouncil.com/organisation/e4l/",
+  },
+  {
+    icon: <Podcast />,
+    text: "WhatsApp Group",
+    description:
+      "Join our whatsapp group to connect with other members in the E4L club as well as to get important announcements and updates about upcoming events.",
+    url: "https://chat.whatsapp.com/IeXFtsxiww14E5tKivQcic",
   },
 ];
 
