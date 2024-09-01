@@ -27,4 +27,4 @@ const UpcomingEvents = () => {
     )
 }
 
-export default SectionWrapper(UpcomingEvents, "Events");
+export default SectionWrapper(UpcomingEvents, "events");

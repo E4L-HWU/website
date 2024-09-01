@@ -62,4 +62,4 @@ const Gallery = () => {
     )
 }
 
-export default SectionWrapper(Gallery, "Gallery");
+export default SectionWrapper(Gallery, "gallery");

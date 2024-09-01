@@ -3,10 +3,10 @@ import { Network } from "lucide-react";
 import { Mic } from "lucide-react";
 
 export const navItems = [
-  { label: "About", href: "#" },
-  { label: "Gallery", href: "#" },
-  { label: "Upcoming Events", href: "#" },
-  { label: "Register", href: "#" },
+  { label: "About", href: "#about" },
+  { label: "Gallery", href: "#gallery" },
+  { label: "Upcoming Events", href: "#events" },
+  { label: "Register", href: "/signup" },
 ];
 
 export const features = [
