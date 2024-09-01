@@ -17,7 +17,7 @@ export const features = [
       "Participate in exciting engineering and technology competitions to showcase your skills.",
   },
   {
-    icon: <Network />,
+    icon: <Podcast />,
     text: "Workshops",
     description:
       "Join hands-on workshops to deepen your understanding of engineering concepts and tools.",
@@ -28,6 +28,12 @@ export const features = [
     description:
       "Attend seminars led by industry experts to gain insights into the latest technologies in engineering.",
   },
+  {
+    icon: <Network />,
+    text: "Networking Opportunities",
+    description:
+      "Connect with like-minded individuals and industry professionals to expand your network.",
+  }
 ];
 
 export const registration = [
