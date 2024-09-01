@@ -1,4 +1,4 @@
-import { Instructions, Navbar, Steps, Welcome } from "./components"
+import { Footer, Instructions, Navbar, Steps, Welcome } from "./components"
 
 const SignUp = () => {
     return (
@@ -7,6 +7,7 @@ const SignUp = () => {
             <Welcome />
             <Instructions />
             <Steps />
+            <Footer />
         </>
     )
 }
