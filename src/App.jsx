@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { About, Gallery, Hero, Navbar, UpcomingEvents } from "./components";
+import { About, Footer, Gallery, Hero, Navbar, UpcomingEvents } from "./components";
 import SignUp from "./SignUp";
 
 export default function App() {
@@ -15,6 +15,7 @@ export default function App() {
               <About />
               <Gallery />
               <UpcomingEvents />
+              <Footer />
             </>
           }
         />

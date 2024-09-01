@@ -6,6 +6,8 @@ import UpcomingEvents from "./UpcomingEvents";
 import Welcome from "./SignUp/Welcome";
 import Instructions from "./SignUp/Instructions";
 import Steps from "./SignUp/Steps";
+import Footer from "./Footer";
+import SocialLinks from "./SocialLinks";
 
 export {
     Navbar,
@@ -13,6 +15,8 @@ export {
     About,
     Gallery,
     UpcomingEvents,
+    Footer,
+    SocialLinks,
 
 
     Welcome,

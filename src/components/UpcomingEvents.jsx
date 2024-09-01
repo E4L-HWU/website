@@ -2,7 +2,7 @@ import { SectionWrapper } from "../hoc"
 
 const UpcomingEvents = () => {
     return (
-        <div className="text-center">
+        <div className="text-center mb-[100px]">
             <span className="text-white text-sm font-medium px-2 py-1 uppercase bg-clip-text">
                 Events
             </span>
