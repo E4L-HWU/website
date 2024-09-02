@@ -51,7 +51,7 @@ const Gallery = () => {
                     className="flex justify-center my-10"
                 >
                     <a
-                        href="#"
+                        href="/gallery"
                         className="bg-gradient-to-r from-slate-50 to-primaryBlue py-3 px-7 mx-3 rounded-md text-black transition-all duration-300 ease-in-out hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-primaryBlue hover:to-white hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.4)]"
                     >
                         Visit our Gallery!
