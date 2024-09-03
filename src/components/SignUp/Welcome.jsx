@@ -1,9 +1,9 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/no-unescaped-entities */
-import { SectionWrapper } from "../../hoc"
-
+import { SectionWrapper } from "../../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn } from "../../utils/motion";
+import { Link } from 'react-scroll';
 
 const Welcome = () => {
     return (
@@ -11,7 +11,7 @@ const Welcome = () => {
             variants={fadeIn('up', 'spring', 0.5)}
             initial="hidden"
             animate="show"
-            className="mb-20"
+            className="-mb-10"
         >
             <div className="text-center lg:mt-20 mt-20">
                 <span className="text-white text-sm font-medium px-2 py-1 uppercase bg-clip-text">
@@ -37,8 +37,24 @@ const Welcome = () => {
                 className="flex flex-col items-center mt-6 lg:mt-20"
             >
                 <p className="sm:text-md text-center text-slate-400 max-2-4xl lg:-mt-10">
-                    Thank you for joining E4L! We're excited to have you on board.
+                    Thank you for joining E4L! We're excited to have you on board. Follow the steps below to continue with your registration.
                 </p>
+                <Link
+                    to="Steps"
+                    smooth={true}
+                    duration={500}
+                    className="mt-10 flex flex-col items-center cursor-pointer"
+                >
+                    <motion.div
+                        whileHover={{ y: -5 }}
+                        className="flex flex-col items-center text-slate-400 animate-bounce mt-[40px]"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                        <span className="text-sm mt-2 mb-2">Scroll Down</span>
+                    </motion.div>
+                </Link>
             </motion.div>
         </motion.div>
     )
