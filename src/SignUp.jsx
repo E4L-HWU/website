@@ -5,9 +5,9 @@ const SignUp = () => {
         <>
             <Navbar />
             <Welcome />
-            <Instructions />
-            <Steps />
-            <Footer />
+            {/* <Instructions /> */}
+            {/* <Steps /> */}
+            {/* <Footer /> */}
         </>
     )
 }
