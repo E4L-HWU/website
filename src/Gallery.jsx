@@ -1,4 +1,4 @@
-import { Footer, GalleryHero, GalleryNav, Navbar, PrevYear } from "./components"
+import { CADWorkshop, F1, Footer, GalleryHero, GalleryNav, Holograms, Iftaar, MarshTower, MovieNight, Navbar, PrevYear, PrintingWorkshop, PromNight, RL, RoboWars, TheRobots } from "./components"
 
 const GalleryPage = () => {
     return (
@@ -7,6 +7,17 @@ const GalleryPage = () => {
             <GalleryHero />
             <GalleryNav />
             <PrevYear />
+            <PrintingWorkshop />
+            <CADWorkshop />
+            <F1 />
+            <Holograms />
+            <Iftaar />
+            <MarshTower />
+            <TheRobots />
+            <MovieNight />
+            <PromNight />
+            <RL />
+            <RoboWars />
             <Footer />
         </>
     )

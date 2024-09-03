@@ -1,20 +1,20 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { SectionWrapper } from '../../hoc';
 
 const navItems = [
     { id: 'gallery-2021-2022', label: '2021-2022' },
-    { id: '3d-print', label: '3D Print' },
-    { id: 'cad-workshop', label: 'Cad Workshop' },
-    { id: 'f1-cars', label: 'F1 Cars' },
-    { id: 'holograms', label: 'Holograms' },
-    { id: 'iftaar-party', label: 'Iftaar Party' },
-    { id: 'marsh-tower', label: 'Marsh Tower' },
-    { id: 'meet-the-robots', label: 'Meet the Robots' },
-    { id: 'movie-night', label: 'Movie Night' },
-    { id: 'prom-night', label: 'Prom Night' },
+    { id: '3d-workshop', label: '3D Print' },
+    { id: 'CADWorkshop', label: 'Cad Workshop' },
+    { id: 'F1', label: 'F1 Cars' },
+    { id: 'Holograms', label: 'Holograms' },
+    { id: 'Iftaar', label: 'Iftaar Party' },
+    { id: 'MarshTower', label: 'Marsh Tower' },
+    { id: 'TheRobots', label: 'Meet the Robots' },
+    { id: 'MovieNight', label: 'Movie Night' },
+    { id: 'PromNight', label: 'Prom Night' },
     { id: 'RL', label: 'Rocket League' },
-    { id: 'robowars', label: 'RoboWars' },
+    { id: 'RoboWars', label: 'RoboWars' },
 ];
 
 const HorizontalScrollNav = () => {
