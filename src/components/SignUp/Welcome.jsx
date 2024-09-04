@@ -1,9 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
-/* eslint-disable react/no-unescaped-entities */
 import { SectionWrapper } from "../../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn } from "../../utils/motion";
-import { Link } from 'react-scroll';
 
 import { registration } from "../../constants";
 
