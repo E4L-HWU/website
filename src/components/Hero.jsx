@@ -13,7 +13,7 @@ const Hero = () => {
                 className="flex flex-col items-center mt-6 lg:mt-20"
             >
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-                    Where Curiosity Meets Creation. Empowering
+                    Empowering
                     <span
                         className="bg-gradient-to-r from-slate-50 to-primaryBlue text-transparent bg-clip-text"
                         style={{ textShadow: "0 0 20px rgba(255, 255, 255, 0.5)" }}
